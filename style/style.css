@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inconsolata:wght@200;300&family=Play&family=Questrial&family=Quicksand:wght@300;400&family=Recursive:wght@300;400;900&family=Teko:wght@300;400;700&display=swap');
+
+/* animation.css */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+:root {
+    --animate-duration: 2000ms;
+    --animate-delay: 0.9s;
+  }
+
+
+/* animation.css */
+
+/* ==================================================== */
+
+/* nav bar */
+
+.main-nav-bar {
+    padding: 15px;
+    width: 100%;
+    background-color: rgb(54, 77, 101);
+}
+
+.main-nav-bar a{
+    color: white!important;
+}
+
+
+
+.nav-item {
+    margin: 0 30px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Cabin Condensed', sans-serif;
+    font-size: 20px;
+    font-weight:800;
+}
+
+
+/* nav bar */
+
+/* =================================================== */
+
+/* main content */
+
+.main-1-text {
+    background-image: url('../photos/streetworkoutWallpaper.jpeg');
+    background-color: rgba(25, 44, 63, 0.509);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110vh;
+}
+
+.mainContent {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 150px;
+}
+
+.move {
+    position:relative;
+    left: 60px;
+}
+
+.your {
+    position:relative;
+    left: 30px;
+}
+
+.bodi {
+    position:relative;
+    left: 250px;
+}
+
+/* main content */
+
+/* ====================================================== */
+
+
+/* about */
+
+
+.about{
+    width: 100%;
+    height: 80vh;
+}
+
+.about .row2 {
+    text-align: center;
+}
+
+.about .row3 {
+    height: 20vh;
+    text-align: center;
+}
+
+.about .row {
+    text-align: center;
+}
+
+.about-center {
+    align-items: center;
+    padding: 5% 0;
+}
+
+.about-us-logo {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#aboutus hr {
+    width: 200px; 
+    margin: auto;
+    padding: 2px;
+}
+
+.about-text {
+    font-family: 'Play', sans-serif;
+    font-size: 20px;
+    font-weight:500;
+    padding: 100px 0 !important;
+}
+
+.about .row2 {
+    padding: 0 5%;
+}
+
+/* trainers */
+
+.trainers {
+    background-color: rgb(76, 128, 160);
+    height: 110vh;
+}
+
+.trainersHeader {
+    font-family: 'Fjalla One', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+    color: white;
+}
+
+.trainersHeader h2 {
+    font-size: 70px;
+}
+
+
+
+.trainers .row {
+    margin: 0 80px;
+}
+
+.trainers .row .trainerItems{
+    align-items: center;
+    text-align: center;
+    color: rgb(54, 77, 101);
+}
+
+.trainers .left1, .right3{
+    margin-top: 80px;
+}
+
+.trainers h3 {
+    font-family: 'Play', sans-serif;
+    margin-bottom: 25px;
+    color: white;
+    font-size: 25px;
+}
+
+.trainers .view-more {
+    font-family: 'Play', sans-serif;
+    background-color: white;
+    margin-top: 50px;
+    border-radius: 25px;
+    padding:2px;
+    font-size: 17px;
+}
+
+.view-more h4 {
+    font-size: 20px;
+}
+
+.trainers img {
+    width: 200px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 25px;
+}
+  
+.overlay {
+
+    opacity: 0;
+    border-radius: 0px 0px 25px 25px;
+    transition: .5s ease;
+    background-color: rgb(94, 16, 16);
+    cursor: pointer;
+}
+
+.image-fade-in {
+    position: relative;
+}
+
+.image-fade-in:hover .overlay {
+    opacity: 1;
+}
+
+  .discription {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+/* 
+  For mobile phones ==================================================== */
+
+
+/* Main content */
+
+  @media only screen and (max-width: 600px) {
+      /* Main content */
+    .main-1-text {
+        height: 70vh;
+    }
+    
+    .mainContent {
+        font-size: 70px;
+    }
+    
+    .bodi {
+        left: 70px;
+    }
+    /* Main content */
+/* ================================= */
+    /* about */
+    .about .row2 {
+    margin: 0px;
+    padding: 0px!important;
+    }
+
+    .about .row {
+        text-align: center;
+    }
+
+    .about-us-logo {
+        font-size: 23px;
+        padding: 20px;
+        color:rgb(8, 63, 85);
+    }
+
+    #aboutus hr {
+        width:70%; 
+    }
+
+    .about-text {
+        font-size: 18px;
+        padding: 60px 0 !important;
+        font-weight: 400;
+    }
+/* ========================================== */
+/* trainers */
+    .trainers {
+        background-color: rgb(76, 128, 160);
+        height: 360vh;
+    }
+
+    .trainersHeader {
+        padding-bottom: 0px;
+    }
+
+    .trainersHeader h2 {
+        font-weight: 700;
+        font-size: 40px;
+        display: flex;
+        text-align: center;
+    }
+
+    .trainers .left1, .left2, .right4, .right3{
+        margin-top: 80px;
+    }
+}

@@ -1,0 +1,28 @@
+ .container-exercise-img-div  {
+    display: flex;
+    /* flex-direction: column; */
+    text-align: center;
+  } 
+
+.container-exercise-img-div {
+    display: flex;
+    align-items: center;
+}
+
+.container-exercise-img-div p{
+    width: 400px;
+}
+
+/* .container-exercise img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+
+}  */
+
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+  @media (max-width: 800px) {
+    .container-exercise-img-div {
+      flex-direction: column;
+    }
+  }

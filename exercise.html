@@ -28,65 +28,99 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-xl navbar-light bg-light navbar-margin p-0 ">
-        <div class="container-fluid main-nav-bar ">
-            <a class="navbar-brand" href="./index.html">STREET WORKOUT</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse d-flex justify-content-around" id="navbarNav">
-                <ul class="navbar-nav ">
+    <nav class="navbar navbar-expand-lg m-0 p-0 navbar-light bg-light">
+        <div class="container-fluid m-0 main-nav-bar">
+          <a class="navbar-brand" href="./index.html">STREET WORKOUT</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+    
+              <a class="nav-link nav-item" href="./index.html">HOME</a>
+              <a class="nav-link nav-item" href="./index.html#aboutus">ABOUT US</a>
+              <a class="nav-link nav-item" href="./weather.html">WEATHER</a>
+              <a class="nav-link nav-item" href="/exercise.html">EXERCISE</a>
+              <a class="nav-link nav-item" href="./bmi.html">BMI</a>
+    
+            </div>
+          </div>
+        </div>
+      </nav>
 
-                    <li class="nav-item">
-                        <a class="nav-link" href="./index.html#aboutus">ABOUT US</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./weather.html">WEATHER</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="./exercise.html">EXERCISE</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">FAQ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">CONTACT US</a>
-                    </li>
-                </ul>
+    
+    <div class="exercise p-5">
+        <div class="exercise-header animate__animated animate__fadeInDown">
+            
+            <h2>Different Types Of Workout For Beginner</h2>
+       
+        </div>
+        <!-- <div class="row justify-content-center align-items-center select-menu">
+            <select class="col col-md-auto " aria-label="Default select example">
+                <option selected>Exercise Select Menu</option>
+                <option value="1">PULL UPS</option>
+                <option value="2">DIPS</option>
+                <option value="3">PUSH UPS</option>
+                <option value="4">LEGS</option>
+            </select>
+        </div> -->
+        <div class="container">
+            <div class="row exercise-container">
+                <div class="col col-7 content animate__animated animate__fadeInLeft exercixe-video1">
+                    <video muted loop autoplay="autoplay">
+                        <source src="./video/PULL_UPS.mp4" type="video/mp4" />
+                    </video>
+                </div>
+
+                <div class="col content exercise-text exercise-text1" >
+                    <h3 class="animate__animated animate__fadeInDown" ><u>PULL UPS</u></h3>
+                    <p>An exercise involving raising oneself with one's arms by pulling up against a horizontal bar
+                        fixed above one's head.</p>
+                </div>
+
+                <div class="col col-7 content animate__animated animate__fadeInRight exercixe-video2">
+                    <video muted loop autoplay="autoplay">
+                        <source src="./video/DIPS.mp4" type="video/mp4" />
+                    </video>
+                </div>
+                <div class="col content exercise-text exercise-text2" ">
+                    <h3 class="animate__animated animate__fadeInDown" ><u>DIPS</u></h3>
+                    <p>A dip is an upper-body strength exercise. Narrow, shoulder-width dips primarily train the
+                        triceps, with
+                        major synergists being the anterior deltoid, the pectoralis muscles (sternal, clavicular, and
+                        minor),
+                        and the rhomboid muscles of the back (in that order).</p>
+                </div>
+
             </div>
         </div>
-    </nav>
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="./photos/ig08.jpeg" alt="">
-            <p>A dip is an upper-body strength exercise. Narrow, shoulder-width dips primarily train the triceps, with
-                major synergists being the anterior deltoid, the pectoralis muscles (sternal, clavicular, and minor),
-                and the rhomboid muscles of the back (in that order).</p>
-          </div>
-          <div class="col">
-            <img src="./photos/ig08.jpeg" alt="">
-            <p>A dip is an upper-body strength exercise. Narrow, shoulder-width dips primarily train the triceps, with
-                major synergists being the anterior deltoid, the pectoralis muscles (sternal, clavicular, and minor),
-                and the rhomboid muscles of the back (in that order).</p>
-          </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-          <div class="col">
-            <img src="./photos/ig08.jpeg" alt="">
-            <p>A dip is an upper-body strength exercise. Narrow, shoulder-width dips primarily train the triceps, with
-                major synergists being the anterior deltoid, the pectoralis muscles (sternal, clavicular, and minor),
-                and the rhomboid muscles of the back (in that order).</p>
-          </div>
-          <div class="col">
-            <img src="./photos/ig08.jpeg" alt="">
-            <p>A dip is an upper-body strength exercise. Narrow, shoulder-width dips primarily train the triceps, with
-                major synergists being the anterior deltoid, the pectoralis muscles (sternal, clavicular, and minor),
-                and the rhomboid muscles of the back (in that order).</p>
-          </div>
+        <div class="container">
+            <div class="row">
+                <div class="col col-7 content exercixe-video3">
+                    <video muted loop autoplay="autoplay">
+                        <source src="./video/PUSH_UP.mp4" type="video/mp4" />
+                    </video>
+
+                </div>
+                <div class="col content exercise-text exercise-text3" ">
+                    <h3 class="animate__animated animate__fadeInDown" ><u>PUSH UPS</u></h3>
+                    <p>Push-ups target the chest, shoulders, and triceps and work your core, back, and legs. They pack a serious punch for such a seemingly simple exercise, but you aren't doing yourself any favors if your form isn't dialed. Great push-up form starts with a rigid plank.</p>
+                </div>
+                <div class="col col-7 content exercixe-video4">
+                    <video muted loop autoplay="autoplay">
+                        <source src="./video/LEGS.mp4" type="video/mp4" />
+                    </video>
+
+                </div>
+                <div class="col content exercise-text exercise-text4" ">
+                    <h3 class="animate__animated animate__fadeInDown" ><u>LEGS</u></h3>
+                    <p>Work your legs hard to make the muscles grow and gain definition. Use a leg workout for
+                    definition that targets the quads and hamstrings to fatigue your leg muscles so that you can
+                    build them up, bigger and better. This is the time to use more specific leg exercises, rather
+                    than general strength movements.</p>
+                </div>
+                
+            </div>
         </div>
     </div>
 
@@ -118,6 +152,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
     -->
+    <script src="./javascript/exercise.js"></script>
 </body>
 
 </html>

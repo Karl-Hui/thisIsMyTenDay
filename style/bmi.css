@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Inconsolata:wght@200;300&family=Play&family=Questrial&family=Quicksand:wght@300;400&family=Recursive:wght@300;400;900&family=Teko:wght@300;400;700&display=swap');
+
+.bmi-cal {
+    font-family: 'Play', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(0.25turn, #f9f9f981, #ebf8e181, #203e5055);
+}
+
+.bmi-cal div{
+    width: 450px;
+    background-color: rgb(54, 77, 101);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px #293742;
+    color:rgb(253, 253, 253);
+    margin: 20px;
+}
+
+.bmi-cal h2{
+    font-size: 30px;
+    font-weight: 600;
+}
+.bmi-cal .text{
+    text-align: left;
+    margin-left: 150px;
+}
+
+.bmi-cal #btn{
+    margin-top: 10px;
+    border: none;
+    color: #fff;
+    background-color: rgba(77, 176, 167, 0.594);
+    width: 150px;
+    padding: 10px;
+    border-radius: 30px;
+    outline: none;
+    cursor: pointer;
+}
+
+.bmi-cal #btn:hover{
+    background-color: rgb(227, 161, 68);
+    transition: 0.3s;
+}
